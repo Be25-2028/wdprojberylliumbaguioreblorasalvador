@@ -1,0 +1,92 @@
+/* Color Palette: 
+02394A - Deep Greenish-Blue
+043565 - Dark Blue
+5158BB - Purplish-Blue
+F26DF9 - Neon Pink
+eb4b98 - Magenta
+ebe0f5 - Offwhite Purple
+*/
+
+* {
+  font-family: arial, san-serif;
+  text-align: center;
+  background-color: #ebe0f5;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  text-align: center;
+  background-color: #333333;
+  margin: 0px;
+  padding: 10px;
+}
+
+nav a {
+  color: #dddddd;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #333333;
+}
+
+nav a:hover, nav a:active{
+  background-color: #333333;
+  color: #5158BB;
+}
+
+section.description {
+  background-color: #5158BB;
+}
+
+h2 {
+  background-color: #5158BB;
+  color: #ebe0f5;
+  float: left;
+  margin: 30px;
+}
+
+section p {
+  background-color: #5158BB;
+  font-family: arial;
+  color: #ebe0f5;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+  margin: 30px;
+  margin-right: 250px;
+}
+
+article {
+  background-color: #ffffff;
+  font-size: 3px;
+  color: #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #043565;
+}
+
+footer p {
+  background-color: #043565;
+  font-family: arial;
+  color: #ebe0f5;
+  font-size: 15px;
+  font-weight: bold;
+}
+figcaption {
+   display: inline-block;
+   background-color: #5158BB;
+   color:#ebe0f5;
+}
